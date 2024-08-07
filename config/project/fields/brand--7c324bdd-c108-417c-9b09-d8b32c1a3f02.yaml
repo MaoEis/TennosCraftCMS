@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: brand
+instructions: 'This is the name of the brand of the racket.'
+name: Brand
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:e8a88342-fc32-40eb-9c25-b048d772ee19' # Brand
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - a4941140-96d8-4ebf-8c4c-25d575133558 # Grip Size
+handle: gripSize
+maxAuthors: 1
+name: 'Grip Size.'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
+    enabledByDefault: true
+    hasUrls: true
+    template: grip-size/_entry
+    uriFormat: 'grip-size/{slug}'
+structure:
+  maxLevels: null
+  uid: f4df0e97-6864-4874-9881-fdf604af4ebe
+type: structure

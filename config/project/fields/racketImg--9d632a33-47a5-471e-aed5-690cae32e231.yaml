@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: racketImg
+instructions: 'The picture of the racket.'
+name: 'Racket img'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add a racket image'
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

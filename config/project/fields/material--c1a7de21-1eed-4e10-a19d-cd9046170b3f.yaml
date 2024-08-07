@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: material
+instructions: 'what type(s) of material is the racket made out of.'
+name: Material
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources:
+    - 'section:af0c58b9-56e5-4782-be50-4a5773d6ad58' # Material
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

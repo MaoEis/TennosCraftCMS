@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 57a48ddd-ed93-4b65-8437-b9def449fefa # Racket
+handle: rackets
+maxAuthors: 1
+name: Rackets
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
+    enabledByDefault: true
+    hasUrls: true
+    template: rackets/_entry
+    uriFormat: 'rackets/{slug}'
+type: channel

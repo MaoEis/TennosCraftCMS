@@ -1,0 +1,80 @@
+
+{% extends "_layout" %}
+
+{% block content %}
+
+<div class="mainfilter">
+    <nav class="filters">
+        <p class="filtHead"> Filters. </p>
+        <div>  
+        
+        <div>
+            <h3>Colour.</h3>
+            {% set filtersCol = craft.entries().section('colour').all() %}
+            {% for entry in filtersCol %}
+            <div class="checkbox">
+                <label>
+                    {{entry.title}}
+                    <input type="checkbox" name="{{ entry.slug }}" onchange="toSelectRackets.call(this)">
+                </label>
+            </div>
+            {% endfor %}
+        </div>
+    </nav>
+    
+    <div class="allItems">
+        <p class="filtHead">Rackets.</p>
+        <div class="allRackets">
+            {% set rackets = craft.entries().section('rackets').all() %}
+            {% for entry in rackets %}
+            {% set colourSlugs = entry.colour|map(cat => cat.slug)|join(',') %}
+           <div class="oneItem"
+            data-colour="{{ colourSlugs }}">
+                <a class="itemImage" href="{{entry.url}}"><img src="{{entry.racketImg.one().url()}}" alt="" width="330" height="330"></a>
+                <div class="upHigh">
+                    <p class="vet">{{entry.title}}</p>
+                    <a href="#"><img src="./images/heartsmall.svg" alt="fav"></a> 
+                </div>
+                <p>{{ entry.price|money }} </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>  
+<script>
+    let selectedRackets = [];
+
+    function toSelectRackets() {
+        if (selectedRackets.includes(this.name)) {
+            let index = selectedRackets.indexOf(this.name);
+            selectedRackets.splice(index, 1);
+        } else {
+            selectedRackets.push(this.name);
+        }
+        updateGrid();
+    }
+
+    function updateGrid() {
+        document.querySelectorAll(".allItems .oneItem").forEach((el) => {
+            let dataCol = el.getAttribute("data-colour").split(',');
+            let showItem = true;
+
+
+            for (let i = 0; i < selectedRackets.length; i++) {
+                if (!dataCol.includes(selectedRackets[i])) {
+                    showItem = false;
+                    break;
+                }
+            } 
+           
+ 
+            if (showItem || selectedRackets.length === 0) {
+                el.style.display = "block";
+            } else {
+                el.style.display = "none";
+            }
+        });
+    }
+</script>
+
+{% endblock %}

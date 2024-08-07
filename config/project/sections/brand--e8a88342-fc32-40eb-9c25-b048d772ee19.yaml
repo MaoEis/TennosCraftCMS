@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 08e2eb8d-693b-4aec-a549-ad838b2fb6c2 # Brand
+handle: brand
+maxAuthors: 1
+name: Brand
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
+    enabledByDefault: true
+    hasUrls: true
+    template: brand/_entry
+    uriFormat: 'brand/{slug}'
+structure:
+  maxLevels: null
+  uid: ec548784-0659-46f6-832b-efe36ebb779f
+type: structure

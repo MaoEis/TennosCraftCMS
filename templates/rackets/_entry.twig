@@ -1,0 +1,21 @@
+{% extends "_layout" %}
+
+{% block content %}
+   
+    <div class="iteminfo">
+        <img src="{{entry.racketImg.one().url()}}" alt="" width="330" height="330">
+        <div class="iteminfoRight">
+            <h2>
+                {{entry.title}}
+            </h2>
+            <p class="price">{{entry.price|money}}</p>
+            <p {{entry.description}}</p>
+            <div>
+                <a class="addFav" href=""><img src="{{ url('/images/heart.svg')}}" alt="fav"></a>
+                <a class="addBag" href="">Add to bag.</a>
+            </div>
+        </div>
+    </div>
+
+        
+{% endblock %}

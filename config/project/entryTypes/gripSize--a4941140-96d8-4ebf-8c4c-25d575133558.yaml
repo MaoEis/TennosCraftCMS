@@ -1,0 +1,50 @@
+color: null
+fieldLayouts:
+  64a88cf8-652d-488f-8624-da62b8818dc5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 16fa40e9-1e62-4b21-92de-89116c5fe637
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1d51d655-ce83-402c-9b3d-2fdfe72c25ed
+        userCondition: null
+handle: gripSize
+hasTitleField: true
+icon: ''
+name: 'Grip Size'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

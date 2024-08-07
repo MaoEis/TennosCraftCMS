@@ -1,0 +1,78 @@
+dateModified: 1723053120
+email:
+  fromEmail: r0377155@student.thomasmore.be
+  fromName: Tennos
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  rackets:
+    hasUrls: true
+    name: rackets
+    settings:
+      path: '@webroot/images/rackets'
+    type: craft\fs\Local
+    url: '@web/images/rackets'
+meta:
+  __names__:
+    1b0be1df-2d38-4d5c-9595-df784e06530a: 'explain why us' # explain why us
+    3d1d8ef0-fcce-4d5c-b7ab-b419f957d630: price # price
+    6bc4ca3d-46ec-4787-a459-7a855a084b10: 330x330 # 330x330
+    7c324bdd-c108-417c-9b09-d8b32c1a3f02: Brand # Brand
+    07da1d0c-ec2b-4264-b21f-aa002d861a46: Material # Material
+    8d1e0bb4-5cbf-40f7-a886-2f4b935f48e2: Description # Description
+    08e2eb8d-693b-4aec-a549-ad838b2fb6c2: Brand # Brand
+    9d632a33-47a5-471e-aed5-690cae32e231: 'Racket img' # Racket img
+    43f96e4f-62d0-4c35-91b8-82484689ce37: Tennos # Tennos
+    57a48ddd-ed93-4b65-8437-b9def449fefa: Racket # Racket
+    634eebf6-6b82-4619-befb-05ebf596fe9b: Tennos # Tennos
+    667f8193-84c9-4735-a9ed-cda082179ede: 'Homepage content' # Homepage content
+    782d5726-4839-47e7-afae-08fad69a7fd1: Simple # Simple
+    912a555c-a843-4bed-9910-b86899ab959d: Rackets # Rackets
+    2077e8c8-01ba-41e3-8521-585e3e90831a: rackets # rackets
+    54181d64-eddf-4c0f-b87d-5394f21fda2e: 'Grip Size.' # Grip Size.
+    890219be-5078-4a4f-95ec-7bc697729e41: Colour # Colour
+    4677365d-12ae-41e8-a958-fc8aec395241: 'Grip size' # Grip size
+    a4941140-96d8-4ebf-8c4c-25d575133558: 'Grip Size' # Grip Size
+    aa3c1e09-f907-482b-916b-c4d05396595c: Home # Home
+    af0c58b9-56e5-4782-be50-4a5773d6ad58: Material # Material
+    b4ae48da-0cdc-429e-ba67-685b2a87a51d: home # home
+    b5c6d9ea-f544-413b-a191-44d468f61ae4: 'Name Racket' # Name Racket
+    c1a7de21-1eed-4e10-a19d-cd9046170b3f: Material # Material
+    e4b9339b-979e-4a9c-9a48-3f3f4dd07b81: Colour # Colour
+    e8a88342-fc32-40eb-9c25-b048d772ee19: Brand # Brand
+    e58e8103-a443-4125-983b-d74071eb21d5: 400x400 # 400x400
+    e5548f30-7d04-4e05-8e75-628c064d88f1: 'Public Schema' # Public Schema
+    fc92afad-35e3-4ebe-9020-b84188194319: Colour # Colour
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-tweaks:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: Tennos
+  schemaVersion: 5.0.0.21
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

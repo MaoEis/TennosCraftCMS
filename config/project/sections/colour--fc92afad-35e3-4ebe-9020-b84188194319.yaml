@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 890219be-5078-4a4f-95ec-7bc697729e41 # Colour
+handle: colour
+maxAuthors: 1
+name: Colour
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
+    enabledByDefault: true
+    hasUrls: true
+    template: colour/_entry
+    uriFormat: 'colour/{slug}'
+structure:
+  maxLevels: null
+  uid: 9dbad7b4-2c8d-4bf4-8052-d199958282d8
+type: structure

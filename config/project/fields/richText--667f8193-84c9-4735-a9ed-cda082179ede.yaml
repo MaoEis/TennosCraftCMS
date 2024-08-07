@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: richText
+instructions: 'Free form tekst, must be about tennis and tennis rackets.'
+name: 'Homepage content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field
