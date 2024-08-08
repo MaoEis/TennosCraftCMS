@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 07da1d0c-ec2b-4264-b21f-aa002d861a46 # Material
-handle: material
+  - 890219be-5078-4a4f-95ec-7bc697729e41 # Colour
+handle: colour
 maxAuthors: 1
-name: Material
+name: colour
 previewTargets:
   -
     __assoc__:
@@ -22,9 +22,9 @@ siteSettings:
   43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
     enabledByDefault: true
     hasUrls: true
-    template: material/_entry
-    uriFormat: 'material/{slug}'
+    template: colour/_entry.twig
+    uriFormat: 'colour/{slug}'
 structure:
   maxLevels: null
-  uid: ced30114-3379-4704-892c-0353a00e772b
+  uid: b9e728ed-ae68-4efd-8b56-15f2e312ea43
 type: structure

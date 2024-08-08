@@ -22,10 +22,15 @@
   "prefer-stable": true,
   "require": {
     "abmat/craft-tinymce": "2.0.4",
+    "abmat/craft-translationhelper": "1.0.4",
     "craftcms/ckeditor": "4.1.0",
     "craftcms/cms": "^5.0.0",
+    "craftcms/contact-form": "3.1.0",
     "craftcms/element-api": "4.1.0",
+    "nystudio107/craft-typogrify": "5.0.1",
+    "statikbe/craft-carbon-tracker": "5.0.1",
     "verbb/redactor-tweaks": "4.0.0",
+    "verbb/shortcut": "5.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
