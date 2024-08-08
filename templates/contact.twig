@@ -11,7 +11,7 @@
 
 {% set submission = submission ?? null %}
 
-<form method="post" action="" accept-charset="UTF-8">
+<form method="post" action="" accept-charset="UTF-8" class="form">
     {{ csrfInput() }}
     {{ actionInput('contact-form/send') }}
     {{ redirectInput('{{siteUrl}}') }}
@@ -46,7 +46,7 @@
     }) }}
     {{ submission ? _self.errorList(submission.getErrors('message')) }}
 
-    <button type="submit">Send</button>
+    <button type="submit" class="submit">Send</button>
 </form>
 
 {% endblock %}
