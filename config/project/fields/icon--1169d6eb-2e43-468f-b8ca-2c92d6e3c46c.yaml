@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: icon
+instructions: 'This is to put an Icon in, specifically for the "why us" channel.'
+name: Icon
+searchable: false
+settings:
+  includeProIcons: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Icon

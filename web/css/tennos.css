@@ -147,6 +147,13 @@ article {
 article img {
     max-width: 50px;
     max-height: 50px;
+    margin-top: 40px;
+}
+
+article h3 {
+    font-size: 24px;
+    color: #D94A01;
+    margin-bottom: -30px;
 }
 
 .mainfilter{
@@ -180,7 +187,6 @@ article img {
     gap: 20px;
 }
 
-
 .oneItem {
     margin: 10px;
     display: flex;
@@ -196,7 +202,6 @@ article img {
     align-items: center;
     max-width: 330px;
     margin-bottom: -25px;
-
 }
 
 .vet {
@@ -229,6 +234,7 @@ article img {
     max-width: 250px;
     text-align: center;
 }
+
 .iteminfoRight {
     display: flex;
     flex-direction: column;
@@ -288,7 +294,6 @@ article img {
 .addFav {
     background-color: #20202D;
     padding: 10px 10px;
-
 }
 
 .addFav img {
@@ -324,19 +329,18 @@ article img {
     margin-bottom: -8px;
 }
 
-
 .catInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     justify-content: center;
-
 }
 
 .yourBag h1{
     text-align: center;
 }
+
 .catImg {
     max-width: 350px;
 }
@@ -482,6 +486,8 @@ main {
     margin-bottom: 120px;
 }
 
+
+
 h2 {
     font-size: 42px;
 }
@@ -503,9 +509,11 @@ p {
     flex-wrap: nowrap;
     gap: 10px;
 }
+
 .motiv {
     display: flex;
     flex-direction: row;
+    justify-self: center;
 }
 
 .mainfilter {

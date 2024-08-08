@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 9d262e41-c5f1-4b6b-a1d3-3d92ffb9a6b7 # whyUs
+handle: whyUs
+maxAuthors: 1
+name: 'Why Us'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  43f96e4f-62d0-4c35-91b8-82484689ce37: # Tennos
+    enabledByDefault: true
+    hasUrls: true
+    template: why-us/_entry.twig
+    uriFormat: 'why-us/{slug}'
+type: channel

@@ -1,36 +1,35 @@
 columnSuffix: null
-handle: racketImg
-instructions: 'The picture of the racket.'
-name: 'Racket img'
+handle: iconimg
+instructions: 'This is for the icon used for the homepage "why Us" section.'
+name: IconImg
 searchable: false
 settings:
   allowSelfRelations: false
   allowSubfolders: false
   allowUploads: true
-  allowedKinds:
-    - image
+  allowedKinds: null
   branchLimit: null
-  defaultUploadLocationSource: 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
+  defaultUploadLocationSource: 'volume:bb961a92-ce1a-4385-a155-f483673296ee' # Icons
   defaultUploadLocationSubpath: null
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
   previewMode: full
-  restrictFiles: true
+  restrictFiles: false
   restrictLocation: false
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
   restrictedLocationSubpath: null
-  selectionLabel: 'Add a racket image'
+  selectionLabel: null
   showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
-    - 'volume:2077e8c8-01ba-41e3-8521-585e3e90831a' # rackets
+    - 'volume:bb961a92-ce1a-4385-a155-f483673296ee' # Icons
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: large
+  viewMode: list
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Assets

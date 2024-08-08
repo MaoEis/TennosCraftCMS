@@ -19,24 +19,17 @@
 <div class="why">
     <h2>Why shop with us?</h2>
     <div class="motiv">
+    {% set arguments = craft.entries().section('whyUs').all() %}
+    {% for entry in arguments %}
         <article>
-            <img src="./images/check-square.svg" alt="check-square">
-            <h3>Expert Selection</h3>
-            <p>We offer a wide range of rackets from the leading brands in the industry, chosen for their
-                performance, durability, and cutting-edge technology.</p>
+            <img src="{{entry.iconimg.one().url()}}" alt="" width="40" height="40">
+            <h3> {{entry.title}}</h3>
+            <p>{{entry.description}}</p>
         </article>
-        <article>
-            <img src="./images/trending-down.svg" alt="Lowercost">
-            <h3>Competitive Prices</h3>
-            <p>We believe that quality gear shouldn't break the bank. That's why we offer competitive pricing on all our products, along with regular promotions and discounts.</p>
-        </article>
-        <article>
-            <img src="./images/smile.svg" alt="happy">
-            <h3>Customer Satisfaction</h3>
-            <p>Your satisfaction is our top priority. Our friendly customer service team is here to help with any questions or concerns, ensuring a smooth and enjoyable shopping experience.</p>
-        </article>
+     {% endfor %}
     </div>
 </div>
+
 
 <div class="all">
     <a href="{{siteUrl}}rackets">See all.</a>
