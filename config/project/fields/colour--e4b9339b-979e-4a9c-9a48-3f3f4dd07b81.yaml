@@ -12,7 +12,8 @@ settings:
   selectionLabel: null
   showCardsInGrid: false
   showSiteMenu: true
-  sources: '*'
+  sources:
+    - 'section:ee11a7a8-6300-4592-9dca-b3bd4bd806c9' # colour
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

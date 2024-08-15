@@ -1,4 +1,4 @@
-dateModified: 1723157020
+dateModified: 1723724518
 email:
   fromEmail: r0377155@student.thomasmore.be
   fromName: Tennos
@@ -22,15 +22,14 @@ meta:
   __names__:
     3d1d8ef0-fcce-4d5c-b7ab-b419f957d630: price # price
     6bc4ca3d-46ec-4787-a459-7a855a084b10: 330x330 # 330x330
-    07da1d0c-ec2b-4264-b21f-aa002d861a46: Material # Material
     8d1e0bb4-5cbf-40f7-a886-2f4b935f48e2: Description # Description
-    08e2eb8d-693b-4aec-a549-ad838b2fb6c2: Brand # Brand
     9d262e41-c5f1-4b6b-a1d3-3d92ffb9a6b7: whyUs # whyUs
     9d632a33-47a5-471e-aed5-690cae32e231: 'Racket img' # Racket img
     43f96e4f-62d0-4c35-91b8-82484689ce37: Tennos # Tennos
     56b9156c-05b6-44a5-9c43-46fca068221b: 'Why Us' # Why Us
     57a48ddd-ed93-4b65-8437-b9def449fefa: Racket # Racket
     161cadb2-3346-446d-875d-fd6c12991b3c: IconImg # IconImg
+    563c893a-6fe1-47f9-ae6f-086b59709523: ColorHex # ColorHex
     634eebf6-6b82-4619-befb-05ebf596fe9b: Tennos # Tennos
     667f8193-84c9-4735-a9ed-cda082179ede: 'Homepage content' # Homepage content
     782d5726-4839-47e7-afae-08fad69a7fd1: Simple # Simple
@@ -38,7 +37,6 @@ meta:
     1169d6eb-2e43-468f-b8ca-2c92d6e3c46c: Icon # Icon
     2077e8c8-01ba-41e3-8521-585e3e90831a: rackets # rackets
     890219be-5078-4a4f-95ec-7bc697729e41: Colour # Colour
-    a4941140-96d8-4ebf-8c4c-25d575133558: 'Grip Size' # Grip Size
     aa3c1e09-f907-482b-916b-c4d05396595c: Home # Home
     b4ae48da-0cdc-429e-ba67-685b2a87a51d: home # home
     b5c6d9ea-f544-413b-a191-44d468f61ae4: 'Name Racket' # Name Racket

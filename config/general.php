@@ -17,7 +17,13 @@ return GeneralConfig::create()
     // Prevent generated URLs from including "index.php"
     ->omitScriptNameInUrls()
     // Preload Single entries as Twig variables
+    ->devMode(App::env('DEV_MODE') ?? false)
+    // Preload Single entries as Twig variables
     ->preloadSingles()
+    // Prevent user enumeration attacks
+    ->allowAdminChanges(App::env('ALLOW_ADMIN_CHANGES') ?? false)
+    // Disallow robots
+    ->disallowRobots(App::env('DISALLOW_ROBOTS') ?? false)
     // Prevent user enumeration attacks
     ->preventUserEnumeration()
     // Set the @webroot alias so the clear-caches command knows where to find CP resources

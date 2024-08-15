@@ -1,0 +1,10 @@
+columnSuffix: null
+handle: colorhex
+instructions: 'add the HEX of the color'
+name: ColorHex
+searchable: false
+settings:
+  defaultColor: '#0d0d12'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Color
